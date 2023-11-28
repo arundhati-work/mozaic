@@ -1,6 +1,7 @@
 @import url('https://fonts.googleapis.com/css2?family=Alata&display=swap');
-.App {
+.app {
   text-align: center;
+  overflow: hidden;
 }
 
 .App-logo {

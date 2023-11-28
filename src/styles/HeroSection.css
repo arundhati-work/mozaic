@@ -1,30 +1,33 @@
 .hero-section{
     display: grid;
+    width: 100vw;
     grid-template-columns: 1fr 5fr 1fr 5fr 1fr;
     font-family: 'Alata', sans-serif;
 }
 
 .hero-section h1{
-    font-size: 35px;
+    font-size: 1.5rem;
     color: #263238;
 }
 
 .hero-section p{
     color: #455A64;
+    font-size: 0.5rem;
 }
 
-.left-container{
+.hero-section .left-container{
     grid-column: 2/3;
+    text-align: left;
 }
 
-.right-container{
+.hero-section .right-container{
     grid-column: 4/5;
     display: flex;
     align-items: center;
     justify-content: center;
 }
 
-.left-container button{
+.hero-section .left-container button{
     border: none;
     border-radius: 18px;
     background-color: #C5E898;
@@ -35,9 +38,10 @@
     padding: 10px 17px;
     font-family: 'Alata', sans-serif;
     margin-top: 30px;
+    font-size: 0.5rem;
 }
 
-.left-container button img{
+.hero-section .left-container button img{
     margin-left: 7px;
 }
 
@@ -56,7 +60,7 @@
         font-size: 1.5rem;
     }
 
-    .left-container{
+    .hero-section .left-container{
         border-right: 1px solid #F3F3F3;
         display: flex;
         flex-direction: column;
@@ -64,12 +68,12 @@
         align-items: left;
     }
 
-    .right-container img{
+    .hero-section .right-container img{
         height: 500px;
         width: auto;
     }
 
-    .left-container button{
+    .hero-section .left-container button{
         border: none;
         border-radius: 18px;
         width: 200px;
@@ -81,6 +85,7 @@
         padding: 10px 17px;
         font-family: 'Alata', sans-serif;
         margin-top: 30px;
+        margin-bottom: 30px;
         font-size: 1rem;
     }
 }
