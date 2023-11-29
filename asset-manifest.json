@@ -1,6 +1,6 @@
 {
   "files": {
-    "main.css": "/mozaic/static/css/main.bfd70be2.css",
+    "main.css": "/mozaic/static/css/main.3c51079d.css",
     "main.js": "/mozaic/static/js/main.9e8c680b.js",
     "static/js/787.9aa6a3a5.chunk.js": "/mozaic/static/js/787.9aa6a3a5.chunk.js",
     "static/media/bloomingEthos.png": "/mozaic/static/media/bloomingEthos.f9565df859d8cf13ee92.png",
@@ -9,12 +9,12 @@
     "static/media/corbetPark.png": "/mozaic/static/media/corbetPark.3e45816a80fc8f78f0b8.png",
     "static/media/hero-img.png": "/mozaic/static/media/hero-img.2cef51c8c29cad63ba99.png",
     "index.html": "/mozaic/index.html",
-    "main.bfd70be2.css.map": "/mozaic/static/css/main.bfd70be2.css.map",
+    "main.3c51079d.css.map": "/mozaic/static/css/main.3c51079d.css.map",
     "main.9e8c680b.js.map": "/mozaic/static/js/main.9e8c680b.js.map",
     "787.9aa6a3a5.chunk.js.map": "/mozaic/static/js/787.9aa6a3a5.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.bfd70be2.css",
+    "static/css/main.3c51079d.css",
     "static/js/main.9e8c680b.js"
   ]
 }
