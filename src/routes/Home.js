@@ -5,6 +5,7 @@ import Spacing from '../components/Spacing';
 import About from '../components/About';
 import Opportunity from '../components/Opportunity';
 import Gallery from '../components/Gallery';
+import Mission from '../components/Mission';
 
 export default function Home() {
   return (
@@ -18,6 +19,7 @@ export default function Home() {
         <Spacing/>
         <Gallery/>
         <Spacing/>
+        <Mission/>
     </div>
   )
 }

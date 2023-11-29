@@ -1,0 +1,80 @@
+.mission{
+    background-color: #134345;
+    color: #F3F3F3;
+    padding-top: 4rem;
+}
+
+
+
+.mission .text-container{
+    display: grid;
+    grid-template-columns: 1fr 5fr 1fr 4fr 1fr;
+    grid-template-rows: 1fr 5fr;
+}
+
+.mission .header{
+    grid-column: 2/3;
+    grid-row: 1/2;
+}
+
+.mission ul{
+    margin-left: 0;
+    display: flex;
+    justify-content: left;
+    margin-bottom: 2rem;
+    padding: 0;
+}
+
+.mission h1{
+    font-weight: lighter;
+}
+
+.mission .left-container p{
+    margin-top: 1rem;
+    margin-bottom: 3rem;
+}
+
+.mission .left-container{
+    grid-column: 2/3;
+    grid-row: 2/3;
+    text-align: left;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.mission .right-container{
+    grid-column: 4/5;
+    grid-row: 2/3;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.mission button{
+    background-color: #31595B;
+    border: none;
+    color: #F3F3F3;
+    font-family: 'Alata', sans-serif;
+    width: 200px;
+    padding: 10px 20px;
+    border-radius: 20px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.mission .capital p{
+    font-size: smaller;
+}
+
+.mission .credits{
+    background-color: #0F3638;
+}
+
+.mission .credits p{
+    font-size: smaller;
+    margin-top: 2rem;
+    margin-bottom: 0;
+    padding: 0.5rem;
+}
