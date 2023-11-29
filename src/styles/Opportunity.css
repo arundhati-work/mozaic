@@ -1,0 +1,97 @@
+.opportunity{
+    display: grid;
+    grid-template-columns: 0.5fr 5fr 0.5fr;
+    grid-template-rows: 1fr auto;
+}
+
+.opportunity .text-container{
+    grid-column: 2/3;
+    grid-row: 1/2;
+    display: grid;
+    grid-gap: 1rem;
+}
+
+.opportunity li{
+    color: #354052;
+}
+
+.opportunity h1{
+    color: #0766AD;
+}
+
+.opportunity ul{
+    display: flex;
+    justify-content: space-around;
+}
+
+.opportunity p{
+    color: #455A64;
+}
+
+.opportunity .cards-container{
+    grid-row: 2/3;
+}
+
+.opportunity button{
+    border: 1px solid #D9D9D9;
+    border-radius: 20px;
+    width: 200px;
+    background-color: transparent;
+    color: #354052;
+    padding: 10px 20px;
+    font-family: 'Alata', sans-serif;
+    margin-top: 30px;
+    margin-bottom: 30px;
+    font-size: 1rem;
+}
+
+.opportunity .cards-container{
+    display: grid;
+    grid-gap: 1rem;
+    grid-row: 2/3;
+    grid-column: 2/3;
+}
+
+
+@media screen and (min-width: 1024px) {
+
+    .opportunity{
+        grid-template-rows: 1fr auto;
+    }
+
+    .opportunity ul{
+        display: block;
+        font-size: 1.5rem;
+    }
+
+    .opportunity .text-container{
+        width: 100vw;
+        display: grid;
+        grid-gap: 0;
+        grid-template-columns: 1fr 4fr 1fr 4fr 1fr;
+    }
+
+    .opportunity .left-container{
+        grid-column: 2/3;
+        text-align: left;
+    }
+
+    .opportunity .right-container{
+        grid-column: 4/5;
+        text-align: left;
+        display: flex;
+        flex-direction: column;
+        justify-content: first baseline;
+    }
+
+    .opportunity h1{
+        font-size: 3rem;
+    }
+
+    .opportunity .cards-container{
+        grid-row: 2/3;
+        display: flex;
+    }
+
+    
+}
