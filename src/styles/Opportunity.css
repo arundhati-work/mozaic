@@ -2,6 +2,7 @@
     display: grid;
     grid-template-columns: 0.5fr 5fr 0.5fr;
     grid-template-rows: 1fr auto;
+    justify-items: center;
 }
 
 .opportunity .text-container{
@@ -53,7 +54,7 @@
 }
 
 
-@media screen and (min-width: 1024px) {
+@media screen and (min-width: 900px) {
 
     .opportunity{
         grid-template-rows: 1fr auto;
@@ -89,9 +90,13 @@
     }
 
     .opportunity .cards-container{
+        width: 95vw;
         grid-row: 2/3;
+        grid-column: 2/3;
         display: flex;
+        justify-content: space-around;
+        align-self: center;
     }
 
-    
 }
+
