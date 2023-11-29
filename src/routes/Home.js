@@ -4,6 +4,7 @@ import HeroSection from '../components/HeroSection';
 import Spacing from '../components/Spacing';
 import About from '../components/About';
 import Opportunity from '../components/Opportunity';
+import Gallery from '../components/Gallery';
 
 export default function Home() {
   return (
@@ -14,6 +15,8 @@ export default function Home() {
         <About/>
         <Spacing/>
         <Opportunity/>
+        <Spacing/>
+        <Gallery/>
         <Spacing/>
     </div>
   )
