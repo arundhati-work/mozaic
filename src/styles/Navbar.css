@@ -149,7 +149,7 @@
        margin-bottom: 5px;
        position: relative;
        
-       background: #232323;
+       background: #06538f;
        border-radius: 3px;
        
        z-index: 1;
@@ -179,7 +179,7 @@
      {
        opacity: 1;
        transform: rotate(45deg) translate(-2px, -1px);
-       background: #232323;
+       background: #06538f;;
      }
      
      /*
