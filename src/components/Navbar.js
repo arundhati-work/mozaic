@@ -16,13 +16,13 @@ export default function Navbar() {
               <NavLink to="/about">About</NavLink>
             </li>
             <li>
-              <NavLink to="/blog">Blog</NavLink>
-            </li>
-            <li>
               <NavLink to="/gallery">Gallery</NavLink>
             </li>
             <li>
-            <button><NavLink to="contact-us">Request a call</NavLink></button>
+              <NavLink to="/blog">Blog</NavLink>
+            </li>
+            <li>
+            <button><NavLink to="mailto:arundhatib.work@gmail.com?Subject=Feedback%20on%20Mozaic">Request a call</NavLink></button>
             </li>
           </ul>
         </div>

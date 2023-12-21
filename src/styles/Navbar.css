@@ -21,23 +21,28 @@
 }
 
 #menu button{
-  padding: 15px 25px;
+    padding: 15px 25px;
     border-radius: 25px;
     border: none;
-    background-color: #C5E898;
+    background-color: #bbec7a;
     transition: 0.5s ease;
 }
 
 #menu button:hover{
-    padding: 12px 30px;
-    border: none;
-    background-color: #bfed83;
+    color: #cfe9ae;
+    background-color: #273613;
+    cursor: pointer;
 }
 
 #menu button a{
     color:#354052;
     font-family: 'Fredoka', sans-serif;
     font-size: 20px;
+    transition: 0.5s ease;
+}
+
+#menu button:hover > a{
+  color: #cfe9ae;
 }
 
 @media screen and (min-width: 1024px) {

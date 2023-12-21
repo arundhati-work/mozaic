@@ -1,0 +1,12 @@
+.coming-soon{
+    height: 70vh;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-family: 'Alata', sans-serif;
+}
+
+.coming-soon h1{
+    font-weight: 400;
+}
